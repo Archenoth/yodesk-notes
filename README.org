@@ -1,0 +1,19 @@
+#+TITLE:Reverse Engineering notes for Yoda Stories
+#+AUTHOR:Archenoth
+#+EMAIL:archenoth@gmail.com
+:SETTINGS:
+#+STARTUP: hidestars inlineimages
+#+DRAWERS: SETTINGS
+:END:
+
+These are the notes I took while following along with Zachtronic's post about reverse engineering a binary file in this [[http://www.zachtronics.com/yoda-stories/][blog post]]!
+This is one particular discipline I'm both super-interested in, but also not overly skilled with, so something like this is perfect!
+
+I actually did a good portion of the Lisp code before creating the Org document for it, so a lot of the notes are looking back and explaining the code I already wrote--which admittedly underwent a few revisions before I even put it in revision control.
+
+I wasn't even going to make a Git Repo for it, but I've found myself explaining what I've been doing a lot recently!
+
+* Recommendations
+[[./yodesk.org][yodesk.org]] is best viewed in Org Mode, though GitHub doesn't render it /terribly/.
+
+Also, in Org Mode, it's a bonus to have [[https://github.com/joaotavora/sly][SLY]] or [[https://github.com/slime/slime][SLIME]] running in the background with a Common Lisp implementation like [[http://www.sbcl.org/][SBCL]] with [[https://www.quicklisp.org/beta/][QuickLisp]] installed to pull down [[https://www.xach.com/lisp/zpng/][ZPNG]] for the image extraction bits.
