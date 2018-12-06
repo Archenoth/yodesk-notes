@@ -6,7 +6,7 @@
 #+DRAWERS: SETTINGS
 :END:
 
-These are the notes I took while following along with Zachtronic's post about reverse engineering a binary file. ([[http://www.zachtronics.com/yoda-stories/][This one]]!)
+These are the notes I took while following along with Zachtronics' post about reverse engineering a binary file. ([[http://www.zachtronics.com/yoda-stories/][This one]]!)
 This is one particular discipline I'm both super-interested in, but also not overly skilled with, so something like this is perfect for me!
 
 I actually did a good portion of the Lisp code before creating an Org document for it, so a lot of the notes are looking back and explaining the code I already wrote--which admittedly underwent a few revisions before I even put it in revision control.

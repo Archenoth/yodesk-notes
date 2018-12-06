@@ -8,7 +8,7 @@
 #+PROPERTY: header-args:lisp :tangle yes :results silent
 :END:
 
-As mentioned in the [[./README.org][README]] These are the literate notes I took while following along [[http://www.zachtronics.com/yoda-stories/][Zachtronic's blog post]] about reverse engineering a binary files.
+As mentioned in the [[./README.org][README]] These are the literate notes I took while following along [[http://www.zachtronics.com/yoda-stories/][Zachtronics' blog post]] about reverse engineering a binary files.
 
 The post details a game known as "Yoda Stories", and includes a [[http://www.zachtronics.com/yoda-stories/assets/img/YODESK.DTA][binary file download]] to follow along what he does to reverse engineer it.
 
