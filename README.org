@@ -19,3 +19,8 @@ So, without further ado, [[./yodesk.org][here's the file]]!
 [[./yodesk.org][yodesk.org]] is best viewed in Org Mode, though GitHub renders it reasonably as well. (Though you'll miss out on the cool interactive bits)
 
 And speaking of interactive bits, in Org Mode, it's a bonus to have [[https://github.com/joaotavora/sly][SLY]] or [[https://github.com/slime/slime][SLIME]] running in the background with a Common Lisp implementation like [[http://www.sbcl.org/][SBCL]]. Preferably with [[https://www.quicklisp.org/beta/][QuickLisp]] installed to pull down [[https://www.xach.com/lisp/zpng/][ZPNG]] for the image extraction bits, though you can run the overall parser without it.
+
+* Tangling the source
+Since [[./yodesk.org][yodesk.org]] is a literate Org file, you can tangle the entire thing to [[./yodesk.lisp][yodesk.lisp]] and [[./palette.lisp][palette.lisp]] with =C-c C-v t= in Org Mode.
+
+There are already tangled versions of these files included with this repo--though if you make changes to the org file, this is how you can run it all separately!
